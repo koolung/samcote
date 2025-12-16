@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Samcote - Black & White Next.js Website
+
+A modern, elegant website built with Next.js featuring a clean black and white theme. This project showcases best practices in web development with TypeScript, Tailwind CSS, and responsive design.
+
+## Features
+
+- ✨ **Clean Black & White Design** - Minimalist aesthetic focusing on clarity
+- ⚡ **Next.js 14** - Server components, API routes, and optimizations
+- 📱 **Fully Responsive** - Mobile-first design that works on all devices
+- 🎨 **Tailwind CSS** - Utility-first styling for rapid development
+- 🔤 **TypeScript** - Type-safe code for better development experience
+- ♿ **Accessible** - Built with accessibility standards in mind
+- 🚀 **SEO Optimized** - Metadata, structured data, and performance
+
+## Project Structure
+
+```
+src/
+├── app/              # Next.js app router (pages and layout)
+├── components/       # Reusable React components
+│   ├── Header.tsx    # Navigation header
+│   ├── Hero.tsx      # Hero section
+│   ├── Features.tsx  # Features showcase
+│   └── Footer.tsx    # Footer
+└── styles/
+    └── globals.css   # Global styles and Tailwind utilities
+```
 
 ## Getting Started
 
-First, run the development server:
+### Installation
 
+1. Navigate to the project directory
+2. Install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the website.
 
-## Learn More
+### Build
 
-To learn more about Next.js, take a look at the following resources:
+Create an optimized production build:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Production
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Start the production server:
+```bash
+npm start
+```
 
-## Deploy on Vercel
+## Customization
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Colors
+The black and white theme uses:
+- **Black**: Text and primary elements (`#000000`)
+- **White**: Background (`#FFFFFF`)
+- **Gray**: Accent colors (`#F3F4F6`, `#1F2937`, etc.)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To modify the color scheme, edit the Tailwind configuration in `tailwind.config.ts`.
+
+### Components
+All components are located in `src/components/` and are fully customizable. Components use:
+- Tailwind CSS classes for styling
+- TypeScript for type safety
+- Next.js Link component for navigation
+
+### Sections
+The homepage includes:
+1. **Header** - Sticky navigation with mobile menu
+2. **Hero** - Main banner with call-to-action buttons
+3. **Features** - 6-column feature showcase with icons
+4. **Footer** - Multi-column footer with links and social media
+
+## Technologies Used
+
+- **Next.js 14** - React framework with App Router
+- **React 18** - UI library
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **PostCSS** - CSS transformations
+- **ESLint** - Code quality
+
+## Performance
+
+This project is optimized for:
+- Fast page loads with Next.js optimizations
+- Minimal CSS with Tailwind
+- Image optimization
+- Code splitting and lazy loading
+- SEO with metadata
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## License
+
+MIT License - feel free to use this project as a template.
+
+## Next Steps
+
+To further customize this website:
+1. Update the content in components
+2. Add more pages in the `src/app` directory
+3. Implement additional sections or features
+4. Connect to a backend API
+5. Deploy to Vercel or your preferred hosting
+
+---
+
+Made with ❤️ using Next.js

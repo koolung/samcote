@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Sora', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+@layer components {
+  .nav-link {
+    @apply text-black hover:text-gray-600 transition-colors duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-black border-2 border-black px-6 py-3 rounded-lg font-semibold hover:bg-black hover:text-white transition-colors duration-300;
+  }
+
+  .section-title {
+    @apply text-4xl font-bold text-black mb-12 text-center;
+  }
+
+  .feature-card {
+    @apply bg-white border-2 border-black p-8 rounded-lg hover:shadow-lg transition-shadow duration-300;
+  }
+}
