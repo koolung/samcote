@@ -1,10 +1,10 @@
 import Header from '@/components/Header'
 import FrenchHero from '@/components/FrenchHero'
 import SVGDividerTop from '@/components/SVGDividerTop'
-import FAQ from '@/components/FAQ'
+import FrenchFAQ from '@/components/FrenchFAQ'
 import SVGDividerMiddle from '@/components/SVGDividerMiddle'
-import CardsSection from '@/components/CardsSection'
-import VideoCTA from '@/components/VideoCTA'
+import FrenchCardsSection from '@/components/FrenchCardsSection'
+import FrenchVideoCTA from '@/components/FrenchVideoCTA'
 import SVGDividerBottom from '@/components/SVGDividerBottom'
 import Footer from '@/components/Footer'
 
@@ -15,10 +15,10 @@ export default function FrenchPage() {
       <main className="flex-grow">
         <FrenchHero />
         <SVGDividerTop />
-        <FAQ />
+        <FrenchFAQ />
         <SVGDividerMiddle />
-        <CardsSection />
-        <VideoCTA />
+        <FrenchCardsSection />
+        <FrenchVideoCTA />
         <SVGDividerBottom />
       </main>
       <Footer />

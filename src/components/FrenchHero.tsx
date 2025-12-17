@@ -16,19 +16,18 @@ export default function FrenchHero() {
         {/* Content on Right */}
         <div className="flex-1">
           <h1 className="text-5xl md:text-6xl font-bold text-black mb-6 leading-tight">
-            Élevez Votre Littératie Numérique
+            Votre guide pour un espace digital plus sécuritaire
           </h1>
 
           <p className="text-lg text-gray-700 mb-8">
-            Habiliter votre organisation avec des initiatives d'empreinte numérique complètes et des habitudes en ligne plus sûres.
-          </p>
+            Aider les élèves, les parents, les enseignants et les aînés à adopter des pratiques en ligne respectueuses, sécuritaires et responsables          </p>
 
           <div className="flex gap-4 flex-wrap">
-            <button className="bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300">
-              Commencer
+            <button className="bg-black text-white w-full md:w-auto px-6 py-3 rounded-[50px] font-semibold hover:bg-gray-800 transition-colors duration-300">
+              Découvrir les services
             </button>
-            <button className="bg-transparent text-black border-black border-2 rounded-lg px-6 py-3 font-semibold hover:bg-black hover:text-white transition-colors duration-300">
-              En Savoir Plus
+            <button className="bg-black text-white w-full md:w-auto px-6 py-3 rounded-[50px] font-semibold hover:bg-gray-800 transition-colors duration-300">
+              Qui est Sam Côté?
             </button>
           </div>
         </div>

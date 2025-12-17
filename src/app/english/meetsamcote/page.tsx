@@ -17,7 +17,6 @@ export default function MeetSamPage() {
         <Carousel />
         <BioSection />
         <TestimonialCarousel />
-        <SVGDividerMiddle />
         <InstagramSection />
         <FinalCTA />
       </main>

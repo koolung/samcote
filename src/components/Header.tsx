@@ -13,8 +13,8 @@ export default function Header() {
 
   const frenchMenu = [
     { label: 'Accueil', href: '/francais' },
-    { label: 'Services', href: '/francais/services' },
-    { label: 'Qui est Sam Côté?', href: '/francais/samcote' },
+    { label: 'Services', href: '/francais/francais-services' },
+    { label: 'Qui est Sam Côté?', href: '/francais/francais-meetsamcote' },
     { label: 'Initiative Empreinte Numérique', href: '/francais/initiative-empreinte-numerique' },
     { label: 'Contact', href: '/francais/contact-2' },
   ]

@@ -7,46 +7,46 @@ interface FAQItem {
   answer: string
 }
 
-export default function FAQ() {
+export default function FrenchFAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null)
 
   const faqs: FAQItem[] = [
     {
-      question: 'What is digital citizenship?',
+      question: 'Qu\'est-ce que la citoyenneté numérique ?',
       answer:
-        'It’s how we act online—being safe, respectful, and smart with tech.',
+        'C\'est la façon dont nous agissons en ligne — en étant prudents, respectueux et avisés avec la technologie.',
     },
     {
-      question: 'Is it just about online safety?',
+      question: 'Est-ce seulement une question de sécurité en ligne?',
       answer:
-        'Nope. It’s also about kindness, privacy, balance, and knowing what’s real or fake.',
+        'Non. C\'est aussi une question de bienveillance, de respect de la vie privée, d\'équilibre et de discernement entre le vrai et le faux.',
     },
     {
-      question: 'What makes someone a good digital citizen?',
+      question: 'Qu\'est-ce qui fait de quelqu\'un un bon citoyen numérique?',
       answer:
-        ' They protect their info, think before posting, treat others with respect, take screen breaks, and don’t fall for scams.',
+        'Il protège ses informations, réfléchit avant de publier, traite les autres avec respect, fait des pauses d\'écran et ne se laisse pas piéger par des arnaques.',
     },
     {
-      question: 'Why are students struggling with technology today?',
+      question: 'Pourquoi les élèves ont-ils du mal avec la technologie aujourd\'hui?',
       answer:
-        'They’re online all the time but rarely shown how to use it safely. This can lead to poor sleep, stress, and habits that hurt learning and relationships.',
+        'Ils sont en ligne en permanence, mais on leur montre rarement comment l\'utiliser de façon sécuritaire. Cela peut entraîner un mauvais sommeil, du stress et des habitudes qui nuisent à l\'apprentissage et aux relations.',
     },
     {
-      question: 'What risks should parents and educators be concerned about?',
+      question: 'Quels risques devraient inquiéter les parents et les éducateurs ?',
       answer:
-        'Cyberbullying, sextortion, fake news, and social pressure can seriously affect students\' mental health and success at school.',
+        'La cyberintimidation, la sextorsion, les fausses nouvelles et la pression sociale peuvent avoir un impact sérieux sur la santé mentale des élèves et leur réussite scolaire.',
     },
     {
-      question: 'What role can teachers and parents play?',
+      question: 'Quel rôle les enseignants et les parents peuvent-ils jouer ?',
       answer:
-        'Be present, set boundaries, and talk about screen habits. You don’t need to be tech experts—just consistent support makes a big impact.',
+        'Être présents, poser des limites et parler des habitudes d\'écran. Il n\'est pas nécessaire d\'être expert en technologie — un soutien constant fait toute la différence.',
     },
   ]
 
   return (
     <section id="faq" className="max-w-7xl mx-auto px-6 py-24">
       <h2 className="text-3xl md:text-5xl text-black mb-12 text-center">
-        Why Does Digital Citizenship Matter
+        Pourquoi la citoyenneté numérique est-elle si importante?
       </h2>
 
       <div className="space-y-4 max-w-6xl mx-auto">
