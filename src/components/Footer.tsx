@@ -92,6 +92,9 @@ export default function Footer() {
             <p className="text-gray-300 text-sm">
               &copy; {currentYear} Samcote. All rights reserved.
             </p>
+            <Link href="https://www.bedfordwebservices.com" className="text-gray-300 text-sm text-white/50" target="_blank" rel="noopener noreferrer">
+               Built by <span className="underline">Bedford Web Services</span>
+            </Link>
             <div className="flex gap-6 mt-4 md:mt-0 text-sm">
               <Link href="#" className="text-gray-300 hover:text-white">
                 Privacy Policy
@@ -102,6 +105,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        
       </div>
     </footer>
   )
