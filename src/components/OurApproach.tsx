@@ -1,5 +1,7 @@
 'use client'
 
+import Link from 'next/link'
+
 export default function OurApproach() {
   const approaches = [
     'Relatable stories that reflect real experiences',
@@ -26,10 +28,18 @@ export default function OurApproach() {
           ))}
         </div>
 
-        <div className="bg-white/10 border border-white/20 rounded-lg p-6">
-          <p className="text-white text-xl font-semibold text-center">
-            NEW PACKAGES INCLUDE ONLINE EDUCATIONAL ESCAPE ROOMS!
-          </p>
+        <div className="bg-white/10 border border-white/20 rounded-lg p-6 flex">
+          <div className="w-[70%] flex items-center justify-center">
+            <p className="text-white text-xl font-semibold text-center">
+              NEW PACKAGES INCLUDE ONLINE EDUCATIONAL ESCAPE ROOMS!
+            </p>
+          </div>
+          <Link 
+            href="/escape-room" 
+            className="w-[30%] bg-[#141414] text-white rounded-lg font-semibold hover:bg-black transition-colors flex items-center justify-center py-6"
+          >
+            Learn More
+          </Link>
         </div>
       </div>
     </section>
